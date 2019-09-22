@@ -1,0 +1,38 @@
+
+head {
+    background-color:rgb(245, 245, 245);
+    color:rgb(134, 32, 32);
+    width: auto;
+}
+
+body {
+    background-color:rgb(54, 54, 54);
+    color:rgb(134, 32, 32);
+    text-align: center;
+}
+
+h1{
+    background-color:rgb(138, 138, 138);
+    text-align: center;
+}
+
+footer{
+    background-color:rgb(138, 138, 138);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+	bottom:0;
+	height:20px;	
+}
+
+table, td{
+    background-color:rgb(138, 138, 138);
+    color:rgb(134, 32, 32);
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    width: 250px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head class="head">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="RPSGame.css">
+        <h1>Rock Paper Scissors</h1>
+        <h4>Select your choice from the dropdown and press go!</h4>
+    </head>
+
+    <body>
+        <h2>Select Your Move!</h2>
+        <div>
+            <select id="userchoice">
+                <option value="1">Rock</option>
+                <option value="2">Paper</option>
+                <option value="3">Scissors</option>
+            </select>
+            <input type="submit" value="GO!" onclick="detrmineWinner()">
+        </div>
+
+        <div>
+            <table id="resultsTable" class="table">
+                <tr>
+                    <th>Round</th>
+                    <th>Result</th>
+                </tr>             
+            </table>
+        </div>
+    </body>
+
+    <footer>
+        <small><i><a href="mailto:paveyns@mail.uc.edu">paveyns@mail.uc.edu</a></i></small>
+        <small><i>This page was created by Nicholas Pavey for IT3049C, Fall 2019</i></small>
+    </footer>
+</html>
+
+<script src="RPSGame.js"></script>
